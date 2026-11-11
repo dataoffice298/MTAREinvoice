@@ -1,0 +1,76 @@
+{
+  "id": "16011de6-c167-464c-97b3-1a26dfb9847d",
+  "name": "EInvoice-EwayBilling",
+  "publisher": "B2B Software Technologies Ltd.",
+  "version": "1.0.0.30",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+   {
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "publisher": "Microsoft",
+      "name": "India GST",
+      "version": "23.7.19495.0"
+    },
+    {
+      "id": "7106d701-c601-4a5f-97c2-b8b323ae2c18",
+      "publisher": "Microsoft",
+      "name": "QR Generator",
+      "version": "23.7.19495.0"
+    },
+    {
+      "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+      "publisher": "Microsoft",
+      "name": "India Tax Base",
+      "version": "23.7.19495.0"
+    },
+    {
+      "id": "c1eafb3f-e397-468e-bdb4-ecc5c317ca00",
+      "publisher": "Microsoft",
+      "name": "Tax Engine",
+      "version": "23.7.19495.0"
+    },
+    {
+      "id": "eddcf82e-482c-49d1-836b-ad0284f2c5b0",
+      "publisher": "Microsoft",
+      "name": "India TCS",
+      "version": "23.7.19495.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "23.7.19495.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "23.7.19495.0"
+    }
+
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.7.19495.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
