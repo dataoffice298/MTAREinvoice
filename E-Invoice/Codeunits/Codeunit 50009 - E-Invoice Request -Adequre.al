@@ -1284,7 +1284,7 @@ codeunit 50009 "E-Invoice Request -Adequre"
             //B2BUPG1.0>>
             //TotItemVal := SalesInvoiceLine."Amount Including Tax" + SalesInvoiceLine."Total GST Amount";
             //NB>>
-            TotItemVal := SalesInvoiceLine."Line Amount" + TotGSTAmt - Discount;
+            //  TotItemVal := SalesInvoiceLine."Line Amount" + TotGSTAmt - Discount;
             //NB<<
             //B2BUPG1.0
 
@@ -1433,14 +1433,14 @@ codeunit 50009 "E-Invoice Request -Adequre"
             OthChrg := ROUND(
                         CurrExchRate.ExchangeAmtFCYToLCY(
                         WORKDATE, CurrCode, OthChrg, CurrFactor), 0.01, '=');
-//NB>>
+        //NB>>
         // IF TotItemVal <> 0 THEN
         //     TotItemVal := ROUND(
         //                 CurrExchRate.ExchangeAmtFCYToLCY(
         //                 WORKDATE, CurrCode, TotItemVal, CurrFactor), 0.01, '=');
         //EXPFIX <<
         //B2B>>
-          TotItemVal := AssAmt + TotGSTAmt - Discount;
+        TotItemVal := AssAmt + TotGSTAmt - Discount;
         //NB<<
 
         IF SlNo <> 0 then begin
@@ -2241,7 +2241,7 @@ codeunit 50009 "E-Invoice Request -Adequre"
         IgstVal := 0;
         CgstVal := 0;
         SgstVal := 0;
-//NB>>
+        //NB>>
         // //EXPFIX >>
         // IF TotGSTAmt <> 0 THEN
         //     TotGSTAmt := ROUND(
